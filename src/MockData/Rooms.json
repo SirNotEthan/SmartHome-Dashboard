@@ -1,0 +1,146 @@
+{
+    "foyer": {
+        "name": "Foyer",
+        "icon": "",
+        "devices": 2,
+        "temperature": 21.5,
+        "humidity": 40,
+        "lights": { "on": 1, "total": 2 },
+        "status": "active"
+    },
+    "living-room": {
+        "name": "Living Room",
+        "icon": "",
+        "devices": 8,
+        "temperature": 22.5,
+        "humidity": 45,
+        "lights": { "on": 3, "total": 5 },
+        "status": "active"
+    },
+    "living-room-2": {
+        "name": "Living Room 2",
+        "icon": "",
+        "devices": 8,
+        "temperature": 22.5,
+        "humidity": 45,
+        "lights": { "on": 3, "total": 5 },
+        "status": "active"
+    },
+    "kitchen": {
+        "name": "Kitchen",
+        "icon": "",
+        "devices": 5,
+        "temperature": 20.0,
+        "humidity": 50,
+        "lights": { "on": 2, "total": 4 },
+        "status": "active"
+    },
+    "utility": {
+        "name": "Utility Room",
+        "icon": "",
+        "devices": 3,
+        "temperature": 19.0,
+        "humidity": 55,
+        "lights": { "on": 1, "total": 2 },
+        "status": "inactive"
+    },
+    "bathroom-understairs": {
+        "name": "Understairs Bathroom",
+        "icon": "",
+        "devices": 2,
+        "temperature": 24.0,
+        "humidity": 60,
+        "lights": { "on": 1, "total": 2 },
+        "status": "inactive"
+    },
+    "bedroom-1": {
+        "name": "Bedroom 1",
+        "icon": "",
+        "devices": 4,
+        "temperature": 21.0,
+        "humidity": 40,
+        "lights": { "on": 2, "total": 3 },
+        "status": "active"
+    },
+    "landing": {
+        "name": "Landing",
+        "icon": "",
+        "devices": 2,
+        "temperature": 22.0,
+        "humidity": 40,
+        "lights": { "on": 1, "total": 2 },
+        "status": "active"
+    },
+    "bathroom-main": {
+        "name": "Main Bathroom",
+        "icon": "",
+        "devices": 4,
+        "temperature": 23.0,
+        "humidity": 50,
+        "lights": { "on": 2, "total": 3 },
+        "status": "active"
+    },
+    "master-bedroom": {
+        "name": "Master Bedroom",
+        "icon": "",
+        "devices": 6,
+        "temperature": 22.0,
+        "humidity": 45,
+        "lights": { "on": 2, "total": 4 },
+        "status": "active"
+    },
+    "bedroom-2": {
+        "name": "Bedroom 2",
+        "icon": "",
+        "devices": 4,
+        "temperature": 21.5,
+        "humidity": 40,
+        "lights": { "on": 2, "total": 3 },
+        "status": "active"
+    },
+    "bedroom-3": {
+        "name": "Bedroom 3",
+        "icon": "",
+        "devices": 4,
+        "temperature": 21.5,
+        "humidity": 40,
+        "lights": { "on": 2, "total": 3 },
+        "status": "active"
+    },
+    "bedroom-4": {
+        "name": "Bedroom 4",
+        "icon": "",
+        "devices": 4,
+        "temperature": 21.5,
+        "humidity": 40,
+        "lights": { "on": 2, "total": 3 },
+        "status": "active"
+    },
+    "bedroom-5": {
+        "name": "Bedroom 5",
+        "icon": "",
+        "devices": 4,
+        "temperature": 21.5,
+        "humidity": 40,
+        "lights": { "on": 2, "total": 3 },
+        "status": "active"
+    },
+    "attic": {
+        "name": "Attic",
+        "icon": "",
+        "devices": 1,
+        "temperature": 18.0,
+        "humidity": 30,
+        "lights": { "on": 0, "total": 1 },
+        "status": "inactive"
+    },
+    "Back-Garden": {
+        "name": "Back Garden",
+        "icon": "",
+        "devices": 3,
+        "temperature": 19.0,
+        "humidity": 55,
+        "lights": { "on": 1, "total": 2 },
+        "status": "active"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "climate": {
+        "temperature": 22.0,
+        "target": 23,
+        "mode": "auto",
+        "heating": false,
+        "cooling": false
+    },
+    "alexa-show": {
+        "status": "active",
+        "volume": 5,
+        "screenOn": true,
+        "cameraEnabled": false
+    },
+    "camera-outside": {
+        "status": "online",
+        "motionDetected": false,
+        "recording": false,
+        "lastMotionTime": null
+    },
+    "camera-outside-2": {
+        "status": "offline",
+        "motionDetected": false,
+        "recording": false,
+        "lastMotionTime": null
+    }
+}
