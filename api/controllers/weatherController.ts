@@ -41,7 +41,7 @@ export async function getWeather(req: Request, res: Response): Promise<void> {
             );
             if (uvResponse.ok) {
                 const uvData = await uvResponse.json() as UVIndexResponse;
-                uvIndex = Math.round(uvData.value * 10) / 10; // Round to 1 decimal place
+                uvIndex = Math.round(uvData.value * 10) / 10; 
             }
         } catch (uvError) {
             console.warn('Failed to fetch UV index:', uvError);
