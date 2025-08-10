@@ -25,7 +25,7 @@ interface WeatherWidgetProps {
     city?: string;
 }
 
-export default function TopBar({ city = "Nuneaton" }: WeatherWidgetProps) {
+export default function TopBar({ city = "Birmingham" }: WeatherWidgetProps) {
     const [currentTime, setCurrentTime] = useState(new Date());
     const [weather, setWeather] = useState<WeatherData | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
@@ -64,7 +64,7 @@ export default function TopBar({ city = "Nuneaton" }: WeatherWidgetProps) {
         fetchWeather();
     }, [city]);
 
-    const formatTime = (date: Date) => {
+    const formatTime = (date: { toLocaleTimeString: (arg0: string, arg1: { hour: string; minute: string; hour12: boolean; }) => any; }) => {
         return date.toLocaleTimeString('en-UK', {
             hour: '2-digit',
             minute: '2-digit',
@@ -72,7 +72,8 @@ export default function TopBar({ city = "Nuneaton" }: WeatherWidgetProps) {
         });
     };
 
-    const formatDate = (date: Date) => {
+
+    const formatDate = (date: { toLocaleDateString: (arg0: string, arg1: { weekday: string; month: string; day: string; }) => any; }) => {
         return date.toLocaleDateString('en-UK', {
             weekday: 'long',
             month: 'long',
